@@ -9,5 +9,9 @@ module.exports = {
     // required to lint *.vue files
     plugins: [
       'html'
-    ]
+    ],
+    "rules": {
+      "no-console": 1,
+      "no-undef": 1
+    }
   }
