@@ -17,7 +17,7 @@ const router = new VueRouter({
   routes: [
     { path: '/login', component: Login },
     { path: '/category/:id', name: 'category', component: Category },
-    { path: '/', redirect: '/category/font-end' },
+    { path: '/', redirect: '/category/front-end' },
     { path: '*', component: NotFound }
   ]
 })
